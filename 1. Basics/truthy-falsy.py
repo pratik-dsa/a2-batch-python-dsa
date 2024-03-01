@@ -14,5 +14,7 @@ Falsy -> ""
 
 # a = bool(0.05)
 # print(a)
-a = bool("")
-print(a)
+# a = bool("")
+# print(a)
+b = bool(56545)
+print(b, type(b))

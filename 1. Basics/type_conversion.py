@@ -6,13 +6,14 @@ str->float
 float->int
 """
 
-a = int(55.95)  # Lowest Integer
-print(a)
-a = int(-5.56)
-print(a)
+# a = int(55.95)  # Lowest Integer
+# print(a)
+# a = int(-5.56)
+# print(a)
 
-# a = float("1009.36")
-# b = float("200.555")
+a = float("1009.36")
+print(a, type(a))
+b = float("200.555")
 # print(a)
 # print(b)
-# print(a + b)
+print(a + b)

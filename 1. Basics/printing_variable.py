@@ -15,7 +15,7 @@ print(f"My name is {name}")
 # print(f"My name is {name} and my age is {age}, my gender is {gender}")
 
 # name = Anirudh
-# print(f"name = {name}, age = {age}")
+print(f"name = {name}, age = {age}")
 # print(f"{name = }")
 
 # print(f"age = {age}")

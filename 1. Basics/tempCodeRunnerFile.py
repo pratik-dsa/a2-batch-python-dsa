@@ -1,1 +1,2 @@
-print(f"My name is {name}")
+a = bool(0.05)
+print(a)
