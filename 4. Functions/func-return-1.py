@@ -4,4 +4,6 @@ def add(num1: int, num2: int, num3: int) -> int:
 
 add(4, 4, 4)
 
-print(add(5, 6, 1))
+# print(add(5, 6, 1))
+p = add(2, 2, 2)
+print(p)

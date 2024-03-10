@@ -3,6 +3,7 @@ def add():
     num1 = int(input("Enter num1 - "))  # 5
     num2 = int(input("Enter num2 - "))  # 10
     print(num1 + num2)
+    print(num1, id(num1), num2, id(num2))
 
 
 def add():
@@ -12,4 +13,4 @@ def add():
 num1 = 100
 num2 = 200
 add()
-print(num1, num2)
+print(num1, id(num1), num2, id(num2))

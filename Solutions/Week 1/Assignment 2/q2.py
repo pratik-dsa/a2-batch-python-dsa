@@ -10,14 +10,19 @@ Number of classes attended
 2. Print Is student is allowed to sit in exam or not
 """
 
-classes_held: int = int(input("Enter the number of classes held = "))
-classes_attended: int = int(input("Enter the number of classes attended = "))
+# classes_held: int = int(input("Enter the number of classes held = "))
+# classes_attended: int = int(input("Enter the number of classes attended = "))
 
-percentage: float = (classes_attended / classes_held) * 100
+# percentage: float = (classes_attended / classes_held) * 100
 
-print(f"Percentage of classes attended: {percentage:.2f}%")  # Search :.2f
+# print(f"Percentage of classes attended: {percentage:.2f}%")  # Search :.2f
 
-if percentage >= 75:
-    print("The student is allowed to sit in the exam.")
-else:
-    print("The student is not allowed to sit in the exam.")
+# if percentage >= 75:
+#     print("The student is allowed to sit in the exam.")
+# else:
+#     print("The student is not allowed to sit in the exam.")
+
+a = float(2.7578)
+print(f" here the value is {a:.2f}")
+
+#

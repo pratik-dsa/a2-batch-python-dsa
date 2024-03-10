@@ -1,3 +1,16 @@
+def change(a: list):
+    a = 1000
+    print(id(a))
+    print(a)
+
+
+# pass_by_reference
+a: int = 50
+print(id(a))
+change(a)
+print(a)
+
+
 def display(lst: list):
     lst[0] = 100
     print(id(lst))

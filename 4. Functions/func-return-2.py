@@ -15,7 +15,7 @@ def checkOddEven(num: int) -> None:
 
 def add(num1: int, num2: int, num3: int) -> int:
     total = num1 + num2 + num3
-    return total
+    return total * 2
 
 
 t = add(10, 20, 30)

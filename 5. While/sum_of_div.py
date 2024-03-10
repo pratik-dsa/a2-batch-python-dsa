@@ -8,4 +8,4 @@ def sumOfDiv(n1: int, n2: int) -> int:
     return total
 
 
-print(sumOfDiv(100, 1))
+print(sumOfDiv(5, 1))

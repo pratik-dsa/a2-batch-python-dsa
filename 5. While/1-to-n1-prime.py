@@ -1,5 +1,6 @@
 def factorsCount(n: int) -> int:
     i = 1
+    # print(id(i))
     count = 0
     while i <= n:
         if n % i == 0:
@@ -17,10 +18,12 @@ def isPrime(n: int) -> bool:
 
 
 i = 1
+# print(id(i))
 n1 = int(input("Enter a number = "))  # 15
 count = 0
 while i <= n1:
     if isPrime(i):
+        print(i)
         count += 1
     i += 1
 

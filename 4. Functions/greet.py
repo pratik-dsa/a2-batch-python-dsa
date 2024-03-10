@@ -5,3 +5,5 @@ def greet(name: str, gender: str = "", age: int = 0):
 
 
 greet("eshita")
+greet("pratik", "male")
+greet("pratik", "male", 22)

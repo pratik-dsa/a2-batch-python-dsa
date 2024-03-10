@@ -12,7 +12,7 @@ a = [78, 67, 44, -100, 87, 321, 543, 56, 6754, 765]
 #     print(a[i], end=" ")
 
 # Reverse
-for i in range(len(a) - 1, -1, -1):
+# for i in range(len(a) - 1, -1, -1):
+# print(a[i], end=" ")
+for i in range(-1, -(len(a) + 1), -1):
     print(a[i], end=" ")
-# for i in range(-1, -(len(a) + 1), -1):
-#     print(a[i], end=" ")

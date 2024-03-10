@@ -9,14 +9,14 @@ def factors(n: int) -> int:
 
 
 def isPrime(n: int) -> bool:
-    return factors(n) == 2
+    if factors(n) != 2:
+        return False
+    return True
 
-    # if factors(n) != 2:
-    #     return False
-    # return True
+    # return factors(n) == 2
 
 
-number = 5
+number = 7
 if isPrime(number):
     print("It is a prime")
 else:

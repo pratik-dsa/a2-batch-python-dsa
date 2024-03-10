@@ -16,4 +16,4 @@ def checkOddEven(num: int) -> bool:
     return num % 2 == 0
 
 
-checkOddEven(10)
+print(checkOddEven(10))
