@@ -5,3 +5,4 @@ for char in a:
     if "0" <= char <= "9":
         cnt += 1
 print(cnt)
+print(asc_num)

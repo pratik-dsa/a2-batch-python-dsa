@@ -8,3 +8,4 @@ tup: Tuple = (32, 45, -100, 67, 77, 43)
 
 for value in tup:
     print(value, end=" ")
+print(type(value))

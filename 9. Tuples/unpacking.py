@@ -13,6 +13,6 @@
 
 a, *b, c = (45, 32, 11, 22, 54, 21)
 
-print(a)
-print(b)
-print(c)
+print(a)   
+print(b) 
+print(c) 

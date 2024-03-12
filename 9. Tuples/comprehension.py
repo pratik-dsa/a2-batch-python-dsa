@@ -1,6 +1,6 @@
-# a = tuple(i for i in range(1, 11))
+a = tuple(i for i in range(1, 11))
 # print(a)
 
 
-a = tuple()
+# a = tuple()
 print(a)
